@@ -1,3 +1,10 @@
+
+/*
+ *
+ * @author shinemettd (David O.)
+ *
+ */
+
 public class Laptop extends Device {
 
     private String modelName;

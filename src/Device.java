@@ -1,3 +1,10 @@
+
+/*
+ *
+ * @author shinemettd (David O.)
+ *
+ */
+
 public class Device {
     private String type;
     private double price;

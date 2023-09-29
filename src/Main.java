@@ -2,6 +2,13 @@ import java.util.Random;
 import java.util.Scanner;
 import java.util.ArrayList;
 
+/*
+ *
+ * @author shinemettd (David O.)
+ *
+ */
+
+
 public class Main {
     public static void main(String[] args) {
         Random rand = new Random();

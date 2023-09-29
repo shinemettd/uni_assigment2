@@ -1,3 +1,10 @@
+
+/*
+ *
+ * @author shinemettd (David O.)
+ *
+ */
+
 public class Tablet extends Device {
 
     private int height;

@@ -1,3 +1,10 @@
+
+/*
+ *
+ * @author shinemettd (David O.)
+ *
+ */
+
 public class Smartphone extends Device {
 
     private int height;
