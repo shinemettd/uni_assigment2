@@ -35,8 +35,8 @@ public class Laptop extends Device {
     @Override
     public String toString() {
         return "\nLaptop {" +
-                "price=" + this.getPrice() + '$' +
-                ", weight=" + this.getWeight() + " kg" +
+                "price=" + String.format("%.2f", this.getPrice()) + '$' +
+                ", weight=" + String.format("%.2f", this.getWeight()) + " kg" +
                 ", modelName='" + modelName + '\'' +
                 ", laptopType='" + laptopType + '\'' +
                 '}';

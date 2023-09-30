@@ -18,14 +18,38 @@ public class Tablet extends Device {
         this.diagonal = diagonal;
     }
 
+    public int getHeight() {
+        return height;
+    }
+
+    public void setHeight(int height) {
+        this.height = height;
+    }
+
+    public int getWidth() {
+        return width;
+    }
+
+    public void setWidth(int width) {
+        this.width = width;
+    }
+
+    public double getDiagonal() {
+        return diagonal;
+    }
+
+    public void setDiagonal(double diagonal) {
+        this.diagonal = diagonal;
+    }
+
     @Override
     public String toString() {
         return "\nTablet {" +
-                "price=" + this.getPrice() + '$' +
-                ", weight=" + this.getWeight() + " kg" +
+                "price=" + String.format("%.2f", this.getPrice()) + '$' +
+                ", weight=" + String.format("%.2f", this.getWeight()) + " kg" +
                 ", height=" + height + " cm" +
                 ", width=" + width + " cm" +
-                ", diagonal=" + diagonal + " cm" +
+                ", diagonal=" + String.format("%.2f", diagonal) + " cm" +
                 '}';
     }
 }

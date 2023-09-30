@@ -45,11 +45,11 @@ public class Smartphone extends Device {
     @Override
     public String toString() {
         return "\nSmartphone {" +
-                "price=" + this.getPrice() + '$' +
-                ", weight=" + this.getWeight() + " kg" +
+                "price=" + String.format("%.2f", this.getPrice()) + '$' +
+                ", weight=" + String.format("%.2f", this.getWeight()) + " kg" +
                 ", height=" + height + " cm" +
                 ", width=" + width + " cm" +
-                ", diagonal=" + diagonal + " cm" +
+                ", diagonal=" + String.format("%.2f", diagonal) + " cm" +
                 '}';
     }
 }
