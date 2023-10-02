@@ -67,8 +67,6 @@ public class Main {
             }
         }
 
-        System.out.println(devicesList);
-
         //printing all devices that was created
         System.out.println("Smartphones created: " + smartphoneCount +
                             "\nTables created: " + tabletCount +
